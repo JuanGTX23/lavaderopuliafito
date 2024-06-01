@@ -1,0 +1,170 @@
+/* Estilos para el header */
+.navbar {
+  background-color: #f5f514;
+  color: #83d487;
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.navbar a {
+  color: #050505; /* Cambia el color de las letras de la navbar */
+  text-decoration: none; /* Elimina el subrayado */
+  margin-left: 10px;
+}
+
+body {
+  background-color: #366668;
+  margin: 0;
+  padding-right: 0px; /* Ajusta el padding para que no haya espacio adicional */
+  scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+  width: 0; /* Remueve la barra de desplazamiento para navegadores basados en Webkit */
+  scroll-behavior: smooth;
+}
+
+/* Estilos para el footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 10px; /* Aumenté el padding para dar más espacio */
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around; /* Cambié a espacio alrededor para distribuir los elementos horizontalmente */
+  align-items: center;
+  flex-wrap: wrap;
+  color: #c7c7c6;
+}
+
+.contact-info,
+.social-media {
+  flex: 1;
+  margin: 10px; /* Ajusté el margen para dar más espacio entre los elementos */
+}
+
+footer p {
+  margin: 5px 0; /* Ajusté el margen de los párrafos para separarlos */
+  font-size: 14px; /* Reduje un poco el tamaño de fuente para que se vea más claro */
+  color: #c7c7c6;
+}
+
+.copyright p {
+  margin: 10px 0; /* Ajusté el margen del párrafo del copyright */
+  font-size: 14px; /* Reduje un poco el tamaño de fuente para que se vea más claro */
+}
+
+/* Estilos para el contenido principal */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+  text-align: center;
+}
+
+.col-md-4 {
+  flex: 1;
+  padding: 0 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-fluid {
+  width: 100%;
+  height: 200px; /* Define un tamaño fijo para la altura */
+  object-fit: cover; /* Ajusta la imagen para que cubra el área definida sin distorsionarse */
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.small-image {
+  max-width: 400px; /* Establece el ancho máximo de la imagen */
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+
+/* Otros estilos */
+h1,
+h2,
+h3 {
+  color: #c7c7c6;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+p, th, td, ul li {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #161616;
+  font-size: 15px;
+}
+
+.row-mt-4 {
+  display: flex;
+  gap: 16px;
+  justify-content: space-around;
+}
+
+.col-md-6 {
+  padding: 15px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilos específicos para la tabla de servicios */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th, td {
+  border: 1px solid rgba(0, 0, 0, 0);
+  padding: 8px;
+}
+
+th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+  margin: 0;
+}
+
+/* Estilos para deshabilitar completamente el efecto de color azul al hacer clic en los enlaces */
+a {
+  text-decoration: none; /* Elimina el subrayado por defecto */
+  color: #050505;
+}
+
+a:focus, a:active {
+  outline: none; /* Elimina el contorno al hacer clic o al estar enfocado */
+}
+
+
+  
+  
+  
